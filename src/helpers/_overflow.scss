@@ -1,0 +1,39 @@
+/*-----------------------------------------------------------------
+- Overflow
+-----------------------------------------------------------------*/
+.ov-v{
+    overflow: visible !important;
+}
+.ov-h{
+    overflow: hidden !important;
+}
+.ov-s{
+    overflow: scroll !important;
+}
+.ov-a{
+    overflow: auto !important;
+}
+.ov-v--x{
+    overflow-x: visible !important;
+}
+.ov-h--x{
+    overflow-x: hidden !important;
+}
+.ov-s--x{
+    overflow-x: scroll !important;
+}
+.ov-a--x{
+    overflow-x: auto !important;
+}
+.ov-v--y{
+    overflow-y: visible !important;
+}
+.ov-h--y{
+    overflow-y: hidden !important;
+}
+.ov-s--y{
+    overflow-y: scroll !important;
+}
+.ov-a--y{
+    overflow-y: auto !important;
+}

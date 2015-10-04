@@ -1,0 +1,53 @@
+//-----------------------------------------------------------------
+// Margin Generator
+//-----------------------------------------------------------------
+@mixin margin_generator($value) {
+
+    .m-#{$value}{
+        margin: px($value) !important;
+    }
+
+    .mt-#{$value}{
+        margin-top: px($value) !important;
+    }
+
+    .mr-#{$value}{
+        margin-right: px($value) !important;
+    }
+
+    .mb-#{$value}{
+        margin-bottom: px($value) !important;
+    }
+
+    .ml-#{$value}{
+        margin-left: px($value) !important;
+    }
+
+}
+
+//-----------------------------------------------------------------
+// Padding Generator
+//-----------------------------------------------------------------
+@mixin padding_generator($value) {
+
+    .p-#{$value}{
+        padding: px($value) !important;
+    }
+
+    .pt-#{$value}{
+        padding-top: px($value) !important;
+    }
+
+    .pr-#{$value}{
+        padding-right: px($value) !important;
+    }
+
+    .pb-#{$value}{
+        padding-bottom: px($value) !important;
+    }
+
+    .pl-#{$value}{
+        padding-left: px($value) !important;
+    }
+
+}

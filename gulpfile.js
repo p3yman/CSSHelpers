@@ -9,7 +9,7 @@ var gulp            = require('gulp'),
 
 // Define Folders
 var source_dir      = 'src/**/*.scss',
-    dest_dir        = 'dest/';
+    dest_dir        = 'dist/';
 
 //-------------------------------
 // Tasks
@@ -26,6 +26,7 @@ gulp.task('styles', function() {
     return gulp.src( source_dir )
         .pipe( sass().on('error', sass.logError) )
         .pipe( autoprefixer("last 5 version") )
+        .pipe( csscomb() )
         .pipe( gulp.dest( dest_dir ) )
         .pipe( rename({suffix: '.min'}) )
         .pipe( cssmin() )

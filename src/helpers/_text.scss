@@ -1,0 +1,81 @@
+/*-----------------------------------------------------------------
+- Text
+-----------------------------------------------------------------*/
+// Vertical Align
+.va-t{
+    vertical-align: top !important;
+}
+.va-sup{
+    vertical-align: super !important;
+}
+.va-tt{
+    vertical-align: text-top !important;
+}
+.va-m{
+    vertical-align: middle !important;
+}
+.va-bl{
+    vertical-align: baseline !important;
+}
+.va-tb{
+    vertical-align: text-bottom !important;
+}
+.va-sub{
+    vertical-align: sub !important;
+}
+
+// Text Align
+.tal{
+    text-align: left !important;
+}
+.tar{
+    text-align: right !important;
+}
+.tac{
+    text-align: center !important;
+}
+.taj{
+    text-align: justify !important;
+}
+
+// Text Decoration
+.td-n{
+    text-decoration: none !important;
+}
+.td-u{
+    text-decoration: underline !important;
+}
+.td-o{
+    text-decoration: overline !important;
+}
+.td-l{
+    text-decoration: line-through !important;
+}
+
+// Text Shadow
+.tsh{
+    text-shadow: none !important;
+}
+
+// Line Height
+.lh-n{
+    line-height: normal !important;
+}
+
+// White Space
+.whs-n{
+    white-space: normal !important;
+}
+.whs-p{
+    white-space: pre !important;
+}
+.whs-nw{
+    white-space: nowrap !important;
+}
+.whs-pw{
+    white-space: pre-wrap !important;
+}
+.whs-pl{
+    white-space: pre-line !important;
+}
+

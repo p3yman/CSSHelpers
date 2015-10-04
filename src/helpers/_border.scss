@@ -1,0 +1,44 @@
+/*-----------------------------------------------------------------
+- Border
+-----------------------------------------------------------------*/
+// Border
+.bd-n{
+    border: none !important;
+}
+.bd-t-n{
+    border-top: none !important;
+}
+.bd-r-n{
+    border-right: none !important;
+}
+.bd-b-n{
+    border-bottom: none !important;
+}
+.bd-l-n{
+    border-left: none !important;
+}
+
+// Border Image
+.bdi-n{
+    border-image: none !important;
+}
+
+// Border Style
+.bds-n{
+    border-style: none !important;
+}
+.bds-h{
+    border-style: hidden !important;
+}
+.bds-dt{
+    border-style: dotted !important;
+}
+.bds-ds{
+    border-style: dashed !important;
+}
+.bds-s{
+    border-style: solid !important;
+}
+.bds-db{
+    border-style: double !important;
+}

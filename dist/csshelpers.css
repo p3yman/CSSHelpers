@@ -1,0 +1,789 @@
+/*!----------------------------------------------------------------
+- CSSHelpers
+- Version: 1.0.0
+- https://github.com/peyman3d/csshelpers
+- Author: Peyman Eskandari (@peyman3d)
+-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------
+- Clear
+-----------------------------------------------------------------*/
+.cl-n
+{
+    clear: none !important;
+}
+
+.cl-r
+{
+    clear: right !important;
+}
+
+.cl-l
+{
+    clear: left !important;
+}
+
+/*-----------------------------------------------------------------
+- Cursor
+-----------------------------------------------------------------*/
+.cur-a
+{
+    cursor: auto !important;
+}
+
+.cur-d
+{
+    cursor: default !important;
+}
+
+.cur-ha
+{
+    cursor: hand !important;
+}
+
+.cur-he
+{
+    cursor: help !important;
+}
+
+.cur-m
+{
+    cursor: move !important;
+}
+
+.cur-p
+{
+    cursor: pointer !important;
+}
+
+.cur-t
+{
+    cursor: text !important;
+}
+
+/*-----------------------------------------------------------------
+- Display and Visibility
+-----------------------------------------------------------------*/
+.d-n
+{
+    display: none !important;
+}
+
+.d-i
+{
+    display: inline !important;
+}
+
+.d-b
+{
+    display: block !important;
+}
+
+.d-ib
+{
+    display: inline-block !important;
+}
+
+.d-t
+{
+    display: table !important;
+}
+
+.d-tc
+{
+    display: table-cell !important;
+}
+
+.d-f
+{
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display:         flex !important;
+}
+
+.d-if
+{
+    display: -webkit-inline-box !important;
+    display: -webkit-inline-flex !important;
+    display: -ms-inline-flexbox !important;
+    display:         inline-flex !important;
+}
+
+.d-li
+{
+    display: list-item !important;
+}
+
+.v-v
+{
+    visibility: visible !important;
+}
+
+.v-h
+{
+    visibility: hidden !important;
+}
+
+/*-----------------------------------------------------------------
+- Float
+-----------------------------------------------------------------*/
+.f-l
+{
+    float: left !important;
+}
+
+.f-r
+{
+    float: right !important;
+}
+
+.f-n
+{
+    float: none !important;
+}
+
+/*-----------------------------------------------------------------
+- Margin
+-----------------------------------------------------------------*/
+.m-auto
+{
+    margin: auto !important;
+}
+
+.mt-auto
+{
+    margin-top: auto !important;
+}
+
+.mr-auto
+{
+    margin-right: auto !important;
+}
+
+.mb-auto
+{
+    margin-bottom: auto !important;
+}
+
+.ml-auto
+{
+    margin-left: auto !important;
+}
+
+.m-0
+{
+    margin: 0 !important;
+}
+
+.mt-0
+{
+    margin-top: 0 !important;
+}
+
+.mr-0
+{
+    margin-right: 0 !important;
+}
+
+.mb-0
+{
+    margin-bottom: 0 !important;
+}
+
+.ml-0
+{
+    margin-left: 0 !important;
+}
+
+.m-5
+{
+    margin: 5px !important;
+}
+
+.mt-5
+{
+    margin-top: 5px !important;
+}
+
+.mr-5
+{
+    margin-right: 5px !important;
+}
+
+.mb-5
+{
+    margin-bottom: 5px !important;
+}
+
+.ml-5
+{
+    margin-left: 5px !important;
+}
+
+.m-10
+{
+    margin: 10px !important;
+}
+
+.mt-10
+{
+    margin-top: 10px !important;
+}
+
+.mr-10
+{
+    margin-right: 10px !important;
+}
+
+.mb-10
+{
+    margin-bottom: 10px !important;
+}
+
+.ml-10
+{
+    margin-left: 10px !important;
+}
+
+/*-----------------------------------------------------------------
+- Overflow
+-----------------------------------------------------------------*/
+.ov-v
+{
+    overflow: visible !important;
+}
+
+.ov-h
+{
+    overflow: hidden !important;
+}
+
+.ov-s
+{
+    overflow: scroll !important;
+}
+
+.ov-a
+{
+    overflow: auto !important;
+}
+
+.ov-v--x
+{
+    overflow-x: visible !important;
+}
+
+.ov-h--x
+{
+    overflow-x: hidden !important;
+}
+
+.ov-s--x
+{
+    overflow-x: scroll !important;
+}
+
+.ov-a--x
+{
+    overflow-x: auto !important;
+}
+
+.ov-v--y
+{
+    overflow-y: visible !important;
+}
+
+.ov-h--y
+{
+    overflow-y: hidden !important;
+}
+
+.ov-s--y
+{
+    overflow-y: scroll !important;
+}
+
+.ov-a--y
+{
+    overflow-y: auto !important;
+}
+
+/*-----------------------------------------------------------------
+- Padding
+-----------------------------------------------------------------*/
+.p-auto
+{
+    padding: auto !important;
+}
+
+.pt-auto
+{
+    padding-top: auto !important;
+}
+
+.pr-auto
+{
+    padding-right: auto !important;
+}
+
+.pb-auto
+{
+    padding-bottom: auto !important;
+}
+
+.pl-auto
+{
+    padding-left: auto !important;
+}
+
+.p-0
+{
+    padding: 0 !important;
+}
+
+.pt-0
+{
+    padding-top: 0 !important;
+}
+
+.pr-0
+{
+    padding-right: 0 !important;
+}
+
+.pb-0
+{
+    padding-bottom: 0 !important;
+}
+
+.pl-0
+{
+    padding-left: 0 !important;
+}
+
+.p-5
+{
+    padding: 5px !important;
+}
+
+.pt-5
+{
+    padding-top: 5px !important;
+}
+
+.pr-5
+{
+    padding-right: 5px !important;
+}
+
+.pb-5
+{
+    padding-bottom: 5px !important;
+}
+
+.pl-5
+{
+    padding-left: 5px !important;
+}
+
+.p-10
+{
+    padding: 10px !important;
+}
+
+.pt-10
+{
+    padding-top: 10px !important;
+}
+
+.pr-10
+{
+    padding-right: 10px !important;
+}
+
+.pb-10
+{
+    padding-bottom: 10px !important;
+}
+
+.pl-10
+{
+    padding-left: 10px !important;
+}
+
+/*-----------------------------------------------------------------
+- Position
+-----------------------------------------------------------------*/
+.pos-r
+{
+    position: relative !important;
+}
+
+.pos-a
+{
+    position: absolute !important;
+}
+
+.pos-s
+{
+    position: static !important;
+}
+
+.pos-f
+{
+    position: fixed !important;
+}
+
+.t-a
+{
+    top: auto !important;
+}
+
+.r-a
+{
+    right: auto !important;
+}
+
+.b-a
+{
+    bottom: auto !important;
+}
+
+.l-a
+{
+    left: auto !important;
+}
+
+/*-----------------------------------------------------------------
+- Width
+-----------------------------------------------------------------*/
+.w-a
+{
+    width: auto !important;
+}
+
+.w-100
+{
+    width: 100% !important;
+}
+
+/*-----------------------------------------------------------------
+- Height
+-----------------------------------------------------------------*/
+.h-a
+{
+    height: auto !important;
+}
+
+.h-100
+{
+    height: 100% !important;
+}
+
+/*-----------------------------------------------------------------
+- Font
+-----------------------------------------------------------------*/
+.fw-n
+{
+    font-weight: normal !important;
+}
+
+.fw-lr
+{
+    font-weight: lighter !important;
+}
+
+.fw-b
+{
+    font-weight: bold !important;
+}
+
+.fw-br
+{
+    font-weight: bolder !important;
+}
+
+.fs-i
+{
+    font-style: italic !important;
+}
+
+.fs-n
+{
+    font-style: normal !important;
+}
+
+/*-----------------------------------------------------------------
+- Text
+-----------------------------------------------------------------*/
+.va-t
+{
+    vertical-align: top !important;
+}
+
+.va-sup
+{
+    vertical-align: super !important;
+}
+
+.va-tt
+{
+    vertical-align: text-top !important;
+}
+
+.va-m
+{
+    vertical-align: middle !important;
+}
+
+.va-bl
+{
+    vertical-align: baseline !important;
+}
+
+.va-tb
+{
+    vertical-align: text-bottom !important;
+}
+
+.va-sub
+{
+    vertical-align: sub !important;
+}
+
+.tal
+{
+    text-align: left !important;
+}
+
+.tar
+{
+    text-align: right !important;
+}
+
+.tac
+{
+    text-align: center !important;
+}
+
+.taj
+{
+    text-align: justify !important;
+}
+
+.td-n
+{
+    text-decoration: none !important;
+}
+
+.td-u
+{
+    text-decoration: underline !important;
+}
+
+.td-o
+{
+    text-decoration: overline !important;
+}
+
+.td-l
+{
+    text-decoration: line-through !important;
+}
+
+.tsh
+{
+    text-shadow: none !important;
+}
+
+.lh-n
+{
+    line-height: normal !important;
+}
+
+.whs-n
+{
+    white-space: normal !important;
+}
+
+.whs-p
+{
+    white-space: pre !important;
+}
+
+.whs-nw
+{
+    white-space: nowrap !important;
+}
+
+.whs-pw
+{
+    white-space: pre-wrap !important;
+}
+
+.whs-pl
+{
+    white-space: pre-line !important;
+}
+
+/*-----------------------------------------------------------------
+- Background
+-----------------------------------------------------------------*/
+.bg-n
+{
+    background: none !important;
+}
+
+.bgc-t
+{
+    background-color: transparent !important;
+}
+
+.bgi-n
+{
+    background-image: none !important;
+}
+
+.bgr-n
+{
+    background-repeat: no-repeat !important;
+}
+
+.bgr-x
+{
+    background-repeat: repeat-x !important;
+}
+
+.bgr-y
+{
+    background-repeat: repeat-y !important;
+}
+
+.bgsz-a
+{
+    background-size: auto !important;
+}
+
+.bgsz-c
+{
+    background-size: cover !important;
+}
+
+/*-----------------------------------------------------------------
+- Opacity
+-----------------------------------------------------------------*/
+.op-0
+{
+    opacity: 0 !important;
+}
+
+.op-1
+{
+    opacity: 1 !important;
+}
+
+/*-----------------------------------------------------------------
+- Border
+-----------------------------------------------------------------*/
+.bd-n
+{
+    border: none !important;
+}
+
+.bd-t-n
+{
+    border-top: none !important;
+}
+
+.bd-r-n
+{
+    border-right: none !important;
+}
+
+.bd-b-n
+{
+    border-bottom: none !important;
+}
+
+.bd-l-n
+{
+    border-left: none !important;
+}
+
+.bdi-n
+{
+    border-image: none !important;
+}
+
+.bds-n
+{
+    border-style: none !important;
+}
+
+.bds-h
+{
+    border-style: hidden !important;
+}
+
+.bds-dt
+{
+    border-style: dotted !important;
+}
+
+.bds-ds
+{
+    border-style: dashed !important;
+}
+
+.bds-s
+{
+    border-style: solid !important;
+}
+
+.bds-db
+{
+    border-style: double !important;
+}
+
+/*-----------------------------------------------------------------
+- List
+-----------------------------------------------------------------*/
+.lis-n
+{
+    list-style: none !important;
+}
+
+.lisp-i
+{
+    list-style-position: inside !important;
+}
+
+.lisp-o
+{
+    list-style-position: outside !important;
+}
+
+.list-n
+{
+    list-style-type: none !important;
+}
+
+.list-d
+{
+    list-style-type: disc !important;
+}
+
+.list-c
+{
+    list-style-type: circle !important;
+}
+
+.list-s
+{
+    list-style-type: square !important;
+}
+
+.list-dc
+{
+    list-style-type: decimal !important;
+}
