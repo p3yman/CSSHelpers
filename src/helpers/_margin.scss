@@ -3,6 +3,6 @@
 -----------------------------------------------------------------*/
 @include margin_generator(auto);
 
-@for $i from 0 through 2 {
+@for $i from 0 through 10 {
     @include margin_generator($i*5);
 }
