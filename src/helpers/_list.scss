@@ -2,31 +2,36 @@
 - List
 -----------------------------------------------------------------*/
 // List Style
-.lis-n{
+.lis-n {
     list-style: none !important;
 }
 
 // List Style Position
-.lisp-i{
+.lisp-i {
     list-style-position: inside !important;
 }
-.lisp-o{
+
+.lisp-o {
     list-style-position: outside !important;
 }
 
 // List Style Type
-.list-n{
+.list-n {
     list-style-type: none !important;
 }
-.list-d{
+
+.list-d {
     list-style-type: disc !important;
 }
-.list-c{
+
+.list-c {
     list-style-type: circle !important;
 }
-.list-s{
+
+.list-s {
     list-style-type: square !important;
 }
-.list-dc{
+
+.list-dc {
     list-style-type: decimal !important;
 }

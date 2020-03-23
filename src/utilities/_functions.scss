@@ -2,6 +2,9 @@
 // Return PX
 //-----------------------------------------------------------------
 @function px($value) {
+    @if ($value == 0) {
+        @return $value;
+    }
 
     @if (type-of($value) != 'number') {
         @return $value;

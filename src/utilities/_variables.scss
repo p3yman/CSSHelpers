@@ -1,0 +1,43 @@
+//-----------------------------------------------------------------
+// Variables
+//-----------------------------------------------------------------
+
+// Spaces
+$spaces: (
+    xxxs: 1rem * 0.125,
+    xxs : 1rem * 0.25,
+    xs  : 1rem * 0.5,
+    sm  : 1rem * 0.75,
+    md  : 1rem,
+    lg  : 1rem * 1.25,
+    xl  : 1rem * 1.5,
+    xxl : 1rem * 2,
+    xxxl: 1rem * 2.5,
+);
+
+// Positions
+//------------------------------------------------
+$positions_basic: (
+    b: bottom,
+    l: left,
+    r: right,
+    t: top,
+);
+$positions_corners: (
+    tr: top-right,
+    tl: top-left,
+    br: bottom-right,
+    bl: bottom-left,
+);
+$positions: (
+    c : center,
+    b : bottom,
+    l : left,
+    r : right,
+    t : top,
+    lb: left bottom,
+    lt: left top,
+    rb: right bottom,
+    rt: right top,
+);
+

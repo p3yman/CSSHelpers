@@ -1,0 +1,124 @@
+/*-----------------------------------------------------------------
+- Flexbox
+-----------------------------------------------------------------*/
+// Align content
+.ac-c {
+    align-content: center !important;
+}
+
+.ac-fe {
+    align-content: flex-end !important;
+}
+
+.ac-fs {
+    align-content: flex-start !important;
+}
+
+.ac-s {
+    align-content: stretch !important;
+}
+
+.ac-sa {
+    align-content: space-around !important;
+}
+
+.ac-sb {
+    align-content: space-between !important;
+}
+
+// Align items
+.ai-b {
+    align-items: baseline !important;
+}
+
+.ai-c {
+    align-items: center !important;
+}
+
+.ai-fe {
+    align-items: flex-end !important;
+}
+
+.ai-fs {
+    align-items: flex-start !important;
+}
+
+.ai-s {
+    align-items: stretch !important;
+}
+
+// Align self
+.as-a {
+    align-self: auto !important;
+}
+
+.as-b {
+    align-self: baseline !important;
+}
+
+.as-c {
+    align-self: center !important;
+}
+
+.as-fe {
+    align-self: flex-end !important;
+}
+
+.as-fs {
+    align-self: flex-start !important;
+}
+
+.as-s {
+    align-self: stretch !important;
+}
+
+// Direction
+.fd-c {
+    flex-direction: column !important;
+}
+
+.fd-cr {
+    flex-direction: column-reverse !important;
+}
+
+.fd-r {
+    flex-direction: row !important;
+}
+
+.fd-rr {
+    flex-direction: row-reverse !important;
+}
+
+// Wrap
+.fw-nw {
+    flex-wrap: nowrap !important;
+}
+
+.fw-w {
+    flex-wrap: wrap !important;
+}
+
+.fw-wr {
+    flex-wrap: wrap-reverse !important;
+}
+
+// Justify content
+.jc-c {
+    justify-content: center !important;
+}
+
+.jc-fe {
+    justify-content: flex-end !important;
+}
+
+.jc-fs {
+    justify-content: flex-start !important;
+}
+
+.jc-sa {
+    justify-content: space-around !important;
+}
+
+.jc-sb {
+    justify-content: space-between !important;
+}
