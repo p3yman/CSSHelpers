@@ -13,6 +13,8 @@
 .pos-f{
     position: fixed !important;
 }
+
+// Position spacings
 .t-a{
     top: auto !important;
 }
@@ -24,4 +26,39 @@
 }
 .l-a{
     left: auto !important;
+}
+
+// Z-Index
+.z-a {
+    z-index: auto !important;
+}
+.z-0 {
+    z-index: 0 !important;
+}
+.z-1000 {
+    z-index: 1000 !important;
+}
+.z-2000 {
+    z-index: 2000 !important;
+}
+.z-3000 {
+    z-index: 3000 !important;
+}
+.z-4000 {
+    z-index: 4000 !important;
+}
+.z-5000 {
+    z-index: 5000 !important;
+}
+.z-6000 {
+    z-index: 6000 !important;
+}
+.z-7000 {
+    z-index: 7000 !important;
+}
+.z-8000 {
+    z-index: 8000 !important;
+}
+.z-9000 {
+    z-index: 9000 !important;
 }
