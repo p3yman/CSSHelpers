@@ -1,38 +1,47 @@
 /*-----------------------------------------------------------------
 - Display and Visibility
 -----------------------------------------------------------------*/
-.d-n{
+.d-n {
     display: none !important;
 }
-.d-i{
+
+.d-i {
     display: inline !important;
 }
-.d-b{
+
+.d-b {
     display: block !important;
 }
-.d-ib{
+
+.d-ib {
     display: inline-block !important;
 }
-.d-t{
+
+.d-t {
     display: table !important;
 }
-.d-tc{
+
+.d-tc {
     display: table-cell !important;
 }
-.d-f{
+
+.d-f {
     display: flex !important;
 }
-.d-if{
+
+.d-if {
     display: inline-flex !important;
 }
-.d-li{
+
+.d-li {
     display: list-item !important;
 }
 
 // Visibility
-.v-v{
+.v-v {
     visibility: visible !important;
 }
-.v-h{
+
+.v-h {
     visibility: hidden !important;
 }

@@ -1,39 +1,50 @@
 /*-----------------------------------------------------------------
 - Overflow
 -----------------------------------------------------------------*/
-.ov-v{
+.ov-v {
     overflow: visible !important;
 }
-.ov-h{
+
+.ov-h {
     overflow: hidden !important;
 }
-.ov-s{
+
+.ov-s {
     overflow: scroll !important;
 }
-.ov-a{
+
+.ov-a {
     overflow: auto !important;
 }
-.ovx-v{
+
+.ovx-v {
     overflow-x: visible !important;
 }
-.ovx-h{
+
+.ovx-h {
     overflow-x: hidden !important;
 }
-.ovx-s{
+
+.ovx-s {
     overflow-x: scroll !important;
 }
-.ovx-a{
+
+.ovx-a {
     overflow-x: auto !important;
 }
-.ovy-v{
+
+.ovy-v {
     overflow-y: visible !important;
 }
-.ovy-h{
+
+.ovy-h {
     overflow-y: hidden !important;
 }
-.ovy-s{
+
+.ovy-s {
     overflow-y: scroll !important;
 }
-.ovy-a{
+
+.ovy-a {
     overflow-y: auto !important;
 }

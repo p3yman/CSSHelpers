@@ -3,23 +3,33 @@
 //-----------------------------------------------------------------
 @mixin margin_generator($value) {
 
-    .m-#{$value}{
+    .m-#{$value} {
         margin: px($value) !important;
     }
 
-    .mt-#{$value}{
-        margin-top: px($value) !important;
-    }
-
-    .mr-#{$value}{
+    .mx-#{$value} {
+        margin-left:  px($value) !important;
         margin-right: px($value) !important;
     }
 
-    .mb-#{$value}{
+    .my-#{$value} {
+        margin-top:    px($value) !important;
         margin-bottom: px($value) !important;
     }
 
-    .ml-#{$value}{
+    .mt-#{$value} {
+        margin-top: px($value) !important;
+    }
+
+    .mr-#{$value} {
+        margin-right: px($value) !important;
+    }
+
+    .mb-#{$value} {
+        margin-bottom: px($value) !important;
+    }
+
+    .ml-#{$value} {
         margin-left: px($value) !important;
     }
 
@@ -30,23 +40,23 @@
 //-----------------------------------------------------------------
 @mixin padding_generator($value) {
 
-    .p-#{$value}{
+    .p-#{$value} {
         padding: px($value) !important;
     }
 
-    .pt-#{$value}{
+    .pt-#{$value} {
         padding-top: px($value) !important;
     }
 
-    .pr-#{$value}{
+    .pr-#{$value} {
         padding-right: px($value) !important;
     }
 
-    .pb-#{$value}{
+    .pb-#{$value} {
         padding-bottom: px($value) !important;
     }
 
-    .pl-#{$value}{
+    .pl-#{$value} {
         padding-left: px($value) !important;
     }
 

@@ -6,6 +6,7 @@
 -----------------------------------------------------------------*/
 
 // Utitlies
+@import "utilities/variables";
 @import "utilities/functions";
 @import "utilities/mixins";
 
@@ -16,8 +17,8 @@
 @import "helpers/flex";
 @import "helpers/float";
 @import "helpers/margin";
-@import "helpers/overflow";
 @import "helpers/padding";
+@import "helpers/overflow";
 @import "helpers/position";
 @import "helpers/width";
 @import "helpers/height";

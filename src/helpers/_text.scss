@@ -2,80 +2,96 @@
 - Text
 -----------------------------------------------------------------*/
 // Vertical Align
-.va-t{
+.va-t {
     vertical-align: top !important;
 }
-.va-sup{
+
+.va-sup {
     vertical-align: super !important;
 }
-.va-tt{
+
+.va-tt {
     vertical-align: text-top !important;
 }
-.va-m{
+
+.va-m {
     vertical-align: middle !important;
 }
-.va-bl{
+
+.va-bl {
     vertical-align: baseline !important;
 }
-.va-tb{
+
+.va-tb {
     vertical-align: text-bottom !important;
 }
-.va-sub{
+
+.va-sub {
     vertical-align: sub !important;
 }
 
 // Text Align
-.tal{
+.ta-l {
     text-align: left !important;
 }
-.tar{
+
+.ta-r {
     text-align: right !important;
 }
-.tac{
+
+.ta-c {
     text-align: center !important;
 }
-.taj{
+
+.ta-j {
     text-align: justify !important;
 }
 
 // Text Decoration
-.td-n{
+.td-n {
     text-decoration: none !important;
 }
-.td-u{
+
+.td-u {
     text-decoration: underline !important;
 }
-.td-o{
+
+.td-o {
     text-decoration: overline !important;
 }
-.td-l{
+
+.td-l {
     text-decoration: line-through !important;
 }
 
 // Text Shadow
-.tsh{
+.tsh-n {
     text-shadow: none !important;
 }
 
 // Line Height
-.lh-n{
+.lh-n {
     line-height: normal !important;
 }
 
 // White Space
-.whs-n{
+.whs-n {
     white-space: normal !important;
 }
-.whs-p{
+
+.whs-p {
     white-space: pre !important;
 }
-.whs-nw{
+
+.whs-nw {
     white-space: nowrap !important;
 }
-.whs-pw{
+
+.whs-pw {
     white-space: pre-wrap !important;
 }
-.whs-pl{
+
+.whs-pl {
     white-space: pre-line !important;
 }
 

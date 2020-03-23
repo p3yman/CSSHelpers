@@ -1,7 +1,25 @@
 /*-----------------------------------------------------------------
 - Padding
 -----------------------------------------------------------------*/
-@include padding_generator(auto);
+@each $space, $value in $spaces {
+    .p-#{$space} {
+        padding: $value !important;
+    }
+    .px-#{$space} {
+        padding-right: $value !important;
+        padding-left:  $value !important;
+    }
+    .py-#{$space} {
+        padding-top:    $value !important;
+        padding-bottom: $value !important;
+    }
+
+    @each $position, $name in $positions_basic {
+        .p#{$position}-#{$space} {
+            padding-#{$name}: $value !important;
+        }
+    }
+}
 
 @for $i from 0 through 10 {
     @include padding_generator($i*5);

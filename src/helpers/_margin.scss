@@ -1,7 +1,35 @@
 /*-----------------------------------------------------------------
 - Margin
 -----------------------------------------------------------------*/
-@include margin_generator(auto);
+.mx-a {
+    margin-right: auto !important;
+    margin-left:  auto !important;
+}
+
+.my-a {
+    margin-top:    auto !important;
+    margin-bottom: auto !important;
+}
+
+@each $space, $value in $spaces {
+    .m-#{$space} {
+        margin: $value !important;
+    }
+    .mx-#{$space} {
+        margin-right: $value !important;
+        margin-left:  $value !important;
+    }
+    .my-#{$space} {
+        margin-top:    $value !important;
+        margin-bottom: $value !important;
+    }
+
+    @each $position, $name in $positions_basic {
+        .m#{$position}-#{$space} {
+            margin-#{$name}: $value !important;
+        }
+    }
+}
 
 @for $i from 0 through 10 {
     @include margin_generator($i*5);
