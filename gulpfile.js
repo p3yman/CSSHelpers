@@ -1,41 +1,44 @@
 // Plugins
-var gulp            = require('gulp'),
-    sass            = require('gulp-sass'),
-    autoprefixer    = require('gulp-autoprefixer'),
-    cssmin          = require('gulp-cssmin'),
-    rename          = require('gulp-rename'),
-    rimraf          = require('gulp-rimraf'),
-    csscomb         = require('gulp-csscomb');
+const gulp          = require('gulp'),
+      sass          = require('gulp-sass'),
+      postcss       = require('gulp-postcss'),
+      autoprefixer  = require('autoprefixer'),
+      cssnano       = require('cssnano'),
+      rename        = require('gulp-rename');
 
 // Define Folders
-var source_dir      = 'src/**/*.scss',
-    dest_dir        = 'dist/';
+const paths = {
+    src : 'src/**/*.scss',
+    dist: 'dist/',
+};
 
-//-------------------------------
-// Tasks
-//-------------------------------
+/**
+ * Compile styles from SCSS to CSS
+ */
+function build() {
+    return gulp.src(paths.src)
+        .pipe(sass())
+        .pipe(postcss([ autoprefixer() ]))
+        .pipe(gulp.dest(paths.dist))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(postcss([ autoprefixer(), cssnano() ]))
+        .pipe(gulp.dest(paths.dist));
+}
 
-// Clean all files in destination folder
-gulp.task('clean', function() {
-    return gulp.src(dest_dir + '*', { read: false })
-        .pipe(rimraf({ force: true }));
-});
+/**
+ * Default watch file
+ */
+function watch() {
+    gulp.watch(paths.src, build);
+}
 
-// Styles
-gulp.task('styles', function() {
-    return gulp.src( source_dir )
-        .pipe( sass().on('error', sass.logError) )
-        .pipe( autoprefixer("last 5 version") )
-        .pipe( csscomb() )
-        .pipe( gulp.dest( dest_dir ) )
-        .pipe( rename({suffix: '.min'}) )
-        .pipe( cssmin() )
-        .pipe( gulp.dest( dest_dir ) );
-});
+/**
+ * Set default
+ */
+gulp.task('default', build);
 
-// Default and Watch
-gulp.task('default', ['styles'], function() {
-
-    gulp.watch( source_dir , ['styles'] );
-
-});
+/**
+ * Exports
+ */
+exports.watch = watch;
+exports.build = build;
