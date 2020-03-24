@@ -2,16 +2,31 @@
 I add list of features that should be included and checked overtime on CSSHelpers.
 
 ### Features
-- [ ] Box Sizing
-- [ ] Display
-- [ ] Float
-- [ ] Clear
-- [ ] Object (Fit and Position)
-- [ ] Overflow
-- [ ] Position (type, top, right, bottom, left, center)
-- [ ] Visibility
-- [ ] Z-Index
-- [ ] Flexbox
+- #### Basics
+  - [ ] Box Sizing
+  - [ ] Appearance
+  - [ ] Cursor
+  - [ ] Outline
+  - [ ] Pointer Events
+  - [ ] Resize
+  - [ ] User Select
+- #### Display
+  - [ ] Display
+  - [ ] Float
+  - [ ] Clear
+  - [ ] Object (Fit and Position)
+  - [ ] Overflow
+  - [ ] Visibility
+- #### Position
+  - [ ] Type
+  - [ ] Top
+  - [ ] Right
+  - [ ] Bottom
+  - [ ] Left
+  - [ ] Center
+  - [ ] Z-Index
+  - [ ] Vertical align
+- #### Flexbox
   - [ ] Direction
   - [ ] Wrap
   - [ ] Align items
@@ -22,11 +37,17 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [ ] Grow
   - [ ] Shrink
   - [ ] Order
-- [ ] Padding
-- [ ] Margin
-- [ ] Width (min, max)
-- [ ] Height (mix, max)
-- [ ] Font
+- #### Spacing
+  - [ ] Padding
+  - [ ] Margin
+- #### Size  
+  - [ ] Width
+  - [ ] Min width
+  - [ ] Max width
+  - [ ] Height
+  - [ ] Min height
+  - [ ] Max height
+- #### Font
   - [ ] Size
   - [ ] Style
   - [ ] Weight
@@ -37,37 +58,34 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [ ] Text transform
   - [ ] White space
   - [ ] Word break
-- [ ] List style type
-- [ ] List style position
-- [ ] Vertical align
-- [ ] Background
+- #### List
+  - [ ] Style type
+  - [ ] style position
+- #### Background
+  - [ ] Background
   - [ ] Attachment
   - [ ] Color
   - [ ] Position
   - [ ] Repeat
   - [ ] Size
-- [ ] Border
+- #### Border
   - [ ] Color
   - [ ] Style
   - [ ] Width
   - [ ] Radius
-- [ ] Table border collapse
-- [ ] Table layout
-- [ ] Box Shadow
-- [ ] Opacity
-- [ ] Transition
+- #### Table
+  - [ ] Border collapse
+  - [ ] Layout
+- #### Transition
   - [ ] Property
   - [ ] Duration
   - [ ] Timing function
-- [ ] Transform
+- #### Transform
   - [ ] Scale 
   - [ ] Rotate
   - [ ] Translate
   - [ ] Skew
   - [ ] Origin
-- [ ] Appearance
-- [ ] Cursor
-- [ ] Outline
-- [ ] Pointer Events
-- [ ] Resize
-- [ ] User Select
+- #### Effects
+  - [ ] Box Shadow
+  - [ ] Opacity
