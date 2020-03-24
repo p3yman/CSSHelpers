@@ -1,0 +1,73 @@
+# Roadmap
+I add list of features that should be included and checked overtime on CSSHelpers.
+
+### Features
+- [ ] Box Sizing
+- [ ] Display
+- [ ] Float
+- [ ] Clear
+- [ ] Object (Fit and Position)
+- [ ] Overflow
+- [ ] Position (type, top, right, bottom, left, center)
+- [ ] Visibility
+- [ ] Z-Index
+- [ ] Flexbox
+  - [ ] Direction
+  - [ ] Wrap
+  - [ ] Align items
+  - [ ] Align content
+  - [ ] Align self
+  - [ ] Justify content
+  - [ ] Flex
+  - [ ] Grow
+  - [ ] Shrink
+  - [ ] Order
+- [ ] Padding
+- [ ] Margin
+- [ ] Width (min, max)
+- [ ] Height (mix, max)
+- [ ] Font
+  - [ ] Size
+  - [ ] Style
+  - [ ] Weight
+  - [ ] Letter spacing
+  - [ ] Line height
+  - [ ] Text align
+  - [ ] Text decoration
+  - [ ] Text transform
+  - [ ] White space
+  - [ ] Word break
+- [ ] List style type
+- [ ] List style position
+- [ ] Vertical align
+- [ ] Background
+  - [ ] Attachment
+  - [ ] Color
+  - [ ] Position
+  - [ ] Repeat
+  - [ ] Size
+- [ ] Border
+  - [ ] Color
+  - [ ] Style
+  - [ ] Width
+  - [ ] Radius
+- [ ] Table border collapse
+- [ ] Table layout
+- [ ] Box Shadow
+- [ ] Opacity
+- [ ] Transition
+  - [ ] Property
+  - [ ] Duration
+  - [ ] Timing function
+- [ ] Transform
+  - [ ] Scale 
+  - [ ] Rotate
+  - [ ] Translate
+  - [ ] Skew
+  - [ ] Origin
+- [ ] Appearance
+- [ ] Cursor
+- [ ] Outline
+- [ ] Pointer Events
+- [ ] Resize
+- [ ] User Select
