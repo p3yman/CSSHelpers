@@ -3,8 +3,8 @@ I add list of features that should be included and checked overtime on CSSHelper
 
 ### Features
 - #### Basics
-  - [ ] Box Sizing
-  - [ ] Appearance
+  - [x] Box Sizing
+  - [x] Appearance
   - [ ] Cursor
   - [ ] Outline
   - [ ] Pointer Events

@@ -11,20 +11,9 @@
 @import "utilities/mixins";
 
 // Helpers
-@import "helpers/clear";
-@import "helpers/cursor";
-@import "helpers/display";
-@import "helpers/flex";
-@import "helpers/float";
-@import "helpers/margin";
-@import "helpers/padding";
-@import "helpers/overflow";
-@import "helpers/position";
-@import "helpers/width";
-@import "helpers/height";
-@import "helpers/font";
-@import "helpers/text";
-@import "helpers/background";
-@import "helpers/opacity";
-@import "helpers/border";
-@import "helpers/list";
+//------------------------------------------------
+
+// Basics
+@import "helpers/basics/appearance";
+@import "helpers/basics/box-sizing";
+
