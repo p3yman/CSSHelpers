@@ -8,7 +8,7 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [x] Cursor
   - [x] Outline
   - [x] Pointer Events
-  - [ ] Resize
+  - [x] Resize
   - [ ] User Select
 - #### Display
   - [ ] Display
