@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------
+- User Select
+-----------------------------------------------------------------*/
+.us-n {
+    user-select: none !important;
+}
+
+.us-t {
+    user-select: text !important;
+}
+
+.us-al {
+    user-select: all !important;
+}
+
+.us-a {
+    user-select: auto !important;
+}
