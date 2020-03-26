@@ -9,7 +9,7 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [x] Outline
   - [x] Pointer Events
   - [x] Resize
-  - [ ] User Select
+  - [x] User Select
 - #### Display
   - [ ] Display
   - [ ] Float
