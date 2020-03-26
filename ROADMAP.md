@@ -5,7 +5,7 @@ I add list of features that should be included and checked overtime on CSSHelper
 - #### Basics
   - [x] Box Sizing
   - [x] Appearance
-  - [ ] Cursor
+  - [x] Cursor
   - [ ] Outline
   - [ ] Pointer Events
   - [ ] Resize
