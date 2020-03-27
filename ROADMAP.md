@@ -11,7 +11,7 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [x] Resize
   - [x] User Select
 - #### Display
-  - [ ] Display
+  - [x] Display
   - [ ] Float
   - [ ] Clear
   - [ ] Object (Fit and Position)

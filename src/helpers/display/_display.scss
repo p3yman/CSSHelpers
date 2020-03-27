@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------
-- Display and Visibility
+- Display
 -----------------------------------------------------------------*/
 .d-n {
     display: none !important;
@@ -35,13 +35,4 @@
 
 .d-li {
     display: list-item !important;
-}
-
-// Visibility
-.v-v {
-    visibility: visible !important;
-}
-
-.v-h {
-    visibility: hidden !important;
 }
