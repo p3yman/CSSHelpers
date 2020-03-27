@@ -16,7 +16,7 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [ ] Clear
   - [ ] Object (Fit and Position)
   - [ ] Overflow
-  - [ ] Visibility
+  - [x] Visibility
 - #### Position
   - [ ] Type
   - [ ] Top
