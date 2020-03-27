@@ -13,7 +13,7 @@ I add list of features that should be included and checked overtime on CSSHelper
 - #### Display
   - [x] Display
   - [x] Float
-  - [ ] Clear
+  - [x] Clear
   - [ ] Object (Fit and Position)
   - [ ] Overflow
   - [x] Visibility
