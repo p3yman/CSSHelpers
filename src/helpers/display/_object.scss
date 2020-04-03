@@ -1,0 +1,50 @@
+/*-----------------------------------------------------------------
+- Object fit and position
+-----------------------------------------------------------------*/
+.of-con {
+    object-fit: contain;
+}
+
+.of-cov {
+    object-fit: cover;
+}
+
+.of-f {
+    object-fit: fill;
+}
+
+.of-n {
+    object-fit: none;
+}
+
+.of-sd {
+    object-fit: scale-down;
+}
+
+.op-t {
+    object-position: top;
+}
+.op-r {
+    object-position: right;
+}
+.op-b {
+    object-position: bottom;
+}
+.op-l {
+    object-position: left;
+}
+.op-c {
+    object-position: center;
+}
+.op-lb {
+    object-position: left bottom;
+}
+.op-lt {
+    object-position: left top;
+}
+.op-rb {
+    object-position: right bottom;
+}
+.op-rt {
+    object-position: right top;
+}
