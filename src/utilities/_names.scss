@@ -1,0 +1,108 @@
+//-----------------------------------------------------------------
+// Helpers short and full names
+//-----------------------------------------------------------------
+// Basics
+$names: (
+  
+  // Basics
+  //---------------------------------------------------------------
+
+  // Appearance
+  "ap-n": "appearance-none",
+
+  // Box Sizing
+  "box-b": "box-sizing-box",
+  "box-c": "box-sizing-content",
+
+  // Cursor
+  "cur-a": "cursor-auto",
+  "cur-d": "cursor-default",
+  "cur-ha": "cursor-hand",
+  "cur-he": "cursor-help",
+  "cur-m": "cursor-move",
+  "cur-p": "cursor-pointer",
+  "cur-t": "cursor-text",
+  "cur-na": "cursor-not-allowed",
+  "cur-nd": "cursor-no-drop",
+  "cur-n": "cursor-none",
+  "cur-w": "cursor-wait",
+
+  // Outline
+  "ol-n": "outline-none",
+
+  // Pointer events
+  "pe-n": "pointer-events-none",
+  "pe-a": "pointer-events-auto",
+
+  // Resize
+  "rsz-n": "resize-none",
+  "rsz-b": "resize-both",
+  "rsz-y": "resize-vertical",
+  "rsz-x": "resize-horizontal",
+
+  // User select
+  "us-n": "user-select-none",
+  "us-t": "user-select-text",
+  "us-al": "user-select-all",
+  "us-a": "user-select-auto",
+
+
+  // Display
+  //---------------------------------------------------------------
+
+  // Clear
+  "cl-n": "clear-none",
+  "cl-r": "clear-right",
+  "cl-l": "clear-left",
+
+  // Display
+  "d-n": "display-none",
+  "d-i": "display-inline",
+  "d-b": "display-block",
+  "d-ib": "display-inline-block",
+  "d-t": "display-table",
+  "d-tc": "display-table-cell",
+  "d-f": "display-flex",
+  "d-if": "display-inline-flex",
+  "d-li": "display-list-item",
+
+  // Float
+  "f-l": "float-left",
+  "f-r": "float-right",
+  "f-n": "float-none",
+
+  // Object fit and position
+  "obf-con": "object-fit-contain",
+  "obf-cov": "object-fit-cover",
+  "obf-f": "object-fit-fill",
+  "obf-n": "object-fit-none",
+  "obf-sd": "object-fit-scale-down",
+  "obp-t": "object-position-top",
+  "obp-r": "object-position-right",
+  "obp-b": "object-position-bottom",
+  "obp-l": "object-position-left",
+  "obp-lb": "object-position-left-bottom",
+  "obp-lt": "object-position-left-top",
+  "obp-rb": "object-position-right-bottom",
+  "obp-rt": "object-position-right-top",
+
+  // Overflow
+  "ov-v": "overflow-visible",
+  "ov-h": "overflow-hidden",
+  "ov-s": "overflow-scroll",
+  "ov-a": "overflow-auto",
+  "ovx-v": "overflow-x-visible",
+  "ovx-h": "overflow-x-hidden",
+  "ovx-s": "overflow-x-scroll",
+  "ovx-a": "overflow-x-auto",
+  "ovy-v": "overflow-y-visible",
+  "ovy-h": "overflow-y-hidden",
+  "ovy-s": "overflow-y-scroll",
+  "ovy-a": "overflow-y-auto",
+
+  // Visibility
+  "v-v": "visibility-visible",
+  "v-h": "visibility-hidden",
+
+);
+
