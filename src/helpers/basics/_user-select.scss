@@ -1,18 +1,18 @@
 /*-----------------------------------------------------------------
 - User Select
 -----------------------------------------------------------------*/
-.us-n {
+@include helper('us-n') {
     user-select: none !important;
 }
 
-.us-t {
+@include helper('us-t') {
     user-select: text !important;
 }
 
-.us-al {
+@include helper('us-al') {
     user-select: all !important;
 }
 
-.us-a {
+@include helper('us-a') {
     user-select: auto !important;
 }

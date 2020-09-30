@@ -1,10 +1,10 @@
 /*-----------------------------------------------------------------
 - Pointer Events
 -----------------------------------------------------------------*/
-.pe-n {
+@include helper('pe-n') {
     pointer-events: none !important;
 }
 
-.pe-a {
+@include helper('pe-a') {
     pointer-events: auto !important;
 }

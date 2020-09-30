@@ -1,18 +1,18 @@
 /*-----------------------------------------------------------------
 - Resize
 -----------------------------------------------------------------*/
-.rsz-n {
+@include helper('rsz-n') {
     resize: none !important;
 }
 
-.rsz-b {
+@include helper('rsz-b') {
     resize: both !important;
 }
 
-.rsz-y {
+@include helper('rsz-y') {
     resize: vertical !important;
 }
 
-.rsz-x {
+@include helper('rsz-x') {
     resize: horizontal !important;
 }
