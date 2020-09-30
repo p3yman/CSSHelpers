@@ -1,4 +1,20 @@
 //-----------------------------------------------------------------
+// Helper generator
+//-----------------------------------------------------------------
+@mixin helper($name) {
+    $selector: $name;
+
+    // Check the naming version
+    @if $naming == 'full' {
+        $selector: map-get($names, $name);
+    }
+
+    .#{$selector} {
+        @content;
+    }
+}
+
+//-----------------------------------------------------------------
 // Margin Generator
 //-----------------------------------------------------------------
 @mixin margin_generator($value) {
