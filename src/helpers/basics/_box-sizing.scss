@@ -1,10 +1,10 @@
 /*-----------------------------------------------------------------
 - Box Sizing
 -----------------------------------------------------------------*/
-.box-b {
+@include helper('box-b') {
     box-sizing: border-box !important;
 }
 
-.box-c {
+@include helper('box-c') {
     box-sizing: content-box !important;
 }
