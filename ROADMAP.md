@@ -41,12 +41,12 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [ ] Padding
   - [ ] Margin
 - #### Size  
-  - [ ] Width
-  - [ ] Min width
-  - [ ] Max width
-  - [ ] Height
-  - [ ] Min height
-  - [ ] Max height
+  - [x] Width
+  - [x] Min width
+  - [x] Max width
+  - [x] Height
+  - [x] Min height
+  - [x] Max height
 - #### Font
   - [ ] Size
   - [ ] Style
