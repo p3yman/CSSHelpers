@@ -1,46 +1,46 @@
 /*-----------------------------------------------------------------
 - Cursor
 -----------------------------------------------------------------*/
-.cur-a {
+@include helper('cur-a') {
     cursor: auto !important;
 }
 
-.cur-d {
+@include helper('cur-d') {
     cursor: default !important;
 }
 
-.cur-ha {
+@include helper('cur-ha') {
     cursor: hand !important;
 }
 
-.cur-he {
+@include helper('cur-he') {
     cursor: help !important;
 }
 
-.cur-m {
+@include helper('cur-m') {
     cursor: move !important;
 }
 
-.cur-p {
+@include helper('cur-p') {
     cursor: pointer !important;
 }
 
-.cur-t {
+@include helper('cur-t') {
     cursor: text !important;
 }
 
-.cur-na {
+@include helper('cur-na') {
     cursor: not-allowed !important;
 }
 
-.cur-nd{
+@include helper('cur-nd') {
     cursor: no-drop !important;
 }
 
-.cur-n{
+@include helper('cur-n') {
     cursor: none !important;
 }
 
-.cur-w{
+@include helper('cur-w') {
     cursor: wait !important;
 }
