@@ -1,10 +1,10 @@
 /*-----------------------------------------------------------------
 - Visibility
 -----------------------------------------------------------------*/
-.v-v {
+@include helper('v-v') {
     visibility: visible !important;
 }
 
-.v-h {
+@include helper('v-h') {
     visibility: hidden !important;
 }

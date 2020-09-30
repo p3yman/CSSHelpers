@@ -1,50 +1,50 @@
 /*-----------------------------------------------------------------
 - Object fit and position
 -----------------------------------------------------------------*/
-.of-con {
+@include helper('of-con') {
     object-fit: contain;
 }
 
-.of-cov {
+@include helper('of-cov') {
     object-fit: cover;
 }
 
-.of-f {
+@include helper('of-f') {
     object-fit: fill;
 }
 
-.of-n {
+@include helper('of-n') {
     object-fit: none;
 }
 
-.of-sd {
+@include helper('of-sd') {
     object-fit: scale-down;
 }
 
-.op-t {
+@include helper('op-t') {
     object-position: top;
 }
-.op-r {
+@include helper('op-r') {
     object-position: right;
 }
-.op-b {
+@include helper('op-b') {
     object-position: bottom;
 }
-.op-l {
+@include helper('op-l') {
     object-position: left;
 }
-.op-c {
+@include helper('op-c') {
     object-position: center;
 }
-.op-lb {
+@include helper('op-lb') {
     object-position: left bottom;
 }
-.op-lt {
+@include helper('op-lt') {
     object-position: left top;
 }
-.op-rb {
+@include helper('op-rb') {
     object-position: right bottom;
 }
-.op-rt {
+@include helper('op-rt') {
     object-position: right top;
 }

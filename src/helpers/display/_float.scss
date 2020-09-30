@@ -1,14 +1,14 @@
 /*-----------------------------------------------------------------
 - Float
 -----------------------------------------------------------------*/
-.f-l {
+@include helper('f-l') {
     float: left !important;
 }
 
-.f-r {
+@include helper('f-r') {
     float: right !important;
 }
 
-.f-n {
+@include helper('f-n') {
     float: none !important;
 }

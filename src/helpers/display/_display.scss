@@ -1,38 +1,38 @@
 /*-----------------------------------------------------------------
 - Display
 -----------------------------------------------------------------*/
-.d-n {
+@include helper('d-n') {
     display: none !important;
 }
 
-.d-i {
+@include helper('d-i') {
     display: inline !important;
 }
 
-.d-b {
+@include helper('d-b') {
     display: block !important;
 }
 
-.d-ib {
+@include helper('d-ib') {
     display: inline-block !important;
 }
 
-.d-t {
+@include helper('d-t') {
     display: table !important;
 }
 
-.d-tc {
+@include helper('d-tc') {
     display: table-cell !important;
 }
 
-.d-f {
+@include helper('d-f') {
     display: flex !important;
 }
 
-.d-if {
+@include helper('d-if') {
     display: inline-flex !important;
 }
 
-.d-li {
+@include helper('d-li') {
     display: list-item !important;
 }

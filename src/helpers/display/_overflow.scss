@@ -1,50 +1,50 @@
 /*-----------------------------------------------------------------
 - Overflow
 -----------------------------------------------------------------*/
-.ov-v {
+@include helper('ov-v') {
     overflow: visible !important;
 }
 
-.ov-h {
+@include helper('ov-h') {
     overflow: hidden !important;
 }
 
-.ov-s {
+@include helper('ov-s') {
     overflow: scroll !important;
 }
 
-.ov-a {
+@include helper('ov-a') {
     overflow: auto !important;
 }
 
-.ovx-v {
+@include helper('ovx-v') {
     overflow-x: visible !important;
 }
 
-.ovx-h {
+@include helper('ovx-h') {
     overflow-x: hidden !important;
 }
 
-.ovx-s {
+@include helper('ovx-s') {
     overflow-x: scroll !important;
 }
 
-.ovx-a {
+@include helper('ovx-a') {
     overflow-x: auto !important;
 }
 
-.ovy-v {
+@include helper('ovy-v') {
     overflow-y: visible !important;
 }
 
-.ovy-h {
+@include helper('ovy-h') {
     overflow-y: hidden !important;
 }
 
-.ovy-s {
+@include helper('ovy-s') {
     overflow-y: scroll !important;
 }
 
-.ovy-a {
+@include helper('ovy-a') {
     overflow-y: auto !important;
 }
