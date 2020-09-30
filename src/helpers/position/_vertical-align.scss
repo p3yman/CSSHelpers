@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------
+- Vertical Align
+-----------------------------------------------------------------*/
+@include helper('va-t') {
+  vertical-align: top !important;
+}
+
+@include helper('va-sup') {
+  vertical-align: super !important;
+}
+
+@include helper('va-tt') {
+  vertical-align: text-top !important;
+}
+
+@include helper('va-m') {
+  vertical-align: middle !important;
+}
+
+@include helper('va-bl') {
+  vertical-align: baseline !important;
+}
+
+@include helper('va-tb') {
+  vertical-align: text-bottom !important;
+}
+
+@include helper('va-sub') {
+  vertical-align: sub !important;
+}

@@ -14,18 +14,18 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [x] Display
   - [x] Float
   - [x] Clear
-  - [ ] Object (Fit and Position)
+  - [x] Object (Fit and Position)
   - [x] Overflow
   - [x] Visibility
 - #### Position
-  - [ ] Type
-  - [ ] Top
-  - [ ] Right
-  - [ ] Bottom
-  - [ ] Left
-  - [ ] Center
-  - [ ] Z-Index
-  - [ ] Vertical align
+  - [x] Type
+  - [x] Top
+  - [x] Right
+  - [x] Bottom
+  - [x] Left
+  - [x] Center
+  - [x] Z-Index
+  - [x] Vertical align
 - #### Flexbox
   - [ ] Direction
   - [ ] Wrap

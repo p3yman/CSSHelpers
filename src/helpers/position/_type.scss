@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------
+- Position type
+-----------------------------------------------------------------*/
+@include helper('pos-r') {
+  position: relative !important;
+}
+
+@include helper('pos-a') {
+  position: absolute !important;
+}
+
+@include helper('pos-s') {
+  position: static !important;
+}
+
+@include helper('pos-f') {
+  position: fixed !important;
+}

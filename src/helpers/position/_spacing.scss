@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------------
+- Position spacing
+-----------------------------------------------------------------*/
+@include helper('t-a') {
+  top: auto !important;
+}
+@include helper('t-0') {
+  top: 0 !important;
+}
+@include helper('t-100') {
+  top: 100% !important;
+}
+
+@include helper('r-a') {
+  right: auto !important;
+}
+@include helper('r-0') {
+  right: 0 !important;
+}
+@include helper('r-100') {
+  right: 100% !important;
+}
+
+@include helper('b-a') {
+  bottom: auto !important;
+}
+@include helper('b-0') {
+  bottom: 0 !important;
+}
+@include helper('b-100') {
+  bottom: 100% !important;
+}
+
+@include helper('l-a') {
+  left: auto !important;
+}
+@include helper('l-0') {
+  left: 0 !important;
+}
+@include helper('l-100') {
+  left: 100% !important;
+}
