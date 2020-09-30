@@ -1,14 +1,14 @@
 /*-----------------------------------------------------------------
 - Clear
 -----------------------------------------------------------------*/
-.cl-n {
+@include helper('cl-n') {
     clear: none !important;
 }
 
-.cl-r {
+@include helper('cl-r') {
     clear: right !important;
 }
 
-.cl-l {
+@include helper('cl-l') {
     clear: left !important;
 }
