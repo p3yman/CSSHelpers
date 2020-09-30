@@ -4,11 +4,12 @@
 - https://github.com/peyman3d/csshelpers
 - Author: Peyman Eskandari (@peyman3d)
 -----------------------------------------------------------------*/
-
 // Utitlies
 @import "utilities/variables";
 @import "utilities/functions";
 @import "utilities/mixins";
+
+@debug $naming;
 
 // Helpers
 //------------------------------------------------
