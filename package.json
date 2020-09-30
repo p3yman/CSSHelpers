@@ -1,26 +1,26 @@
 {
   "name": "csshelpers",
-  "version": "1.1.0",
+  "version": "2.0.0-alpha",
   "description": "A library of CSS helpers to use in every project.",
   "main": "index.js",
   "scripts": {
-    "start": "gulp buildShortVersion && gulp buildFullVersion"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peyman3d/csshelpers.git"
+    "url": "git+https://github.com/p3yman/csshelpers.git"
   },
   "keywords": [
     "sass",
     "css",
     "helpers"
   ],
-  "author": "Peyman Eskandari (@peyman3d)",
+  "author": "Peyman Eskandari (@p3yman)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peyman3d/csshelpers/issues"
+    "url": "https://github.com/p3yman/csshelpers/issues"
   },
-  "homepage": "https://github.com/peyman3d/csshelpers#readme",
+  "homepage": "https://github.com/p3yman/csshelpers#readme",
   "devDependencies": {
     "autoprefixer": "^10.0.1",
     "cssnano": "^4.1.10",
