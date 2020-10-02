@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------
+- Background Attachment
+-----------------------------------------------------------------*/
+@include helper('bga-s') {
+  background-attachment: scroll !important;
+}
+@include helper('bga-f') {
+  background-attachment: fixed !important;
+}
+@include helper('bga-l') {
+  background-attachment: local !important;
+}
+@include helper('bga-ls') {
+  background-attachment: local, scroll !important;
+}
+@include helper('bga-sl') {
+  background-attachment: scroll, local !important;
+}

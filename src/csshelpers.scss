@@ -31,9 +31,25 @@
 @import "helpers/display/overflow";
 @import "helpers/display/visibility";
 
+// Size
+@import "helpers/size/height";
+@import "helpers/size/width";
+
 // Positions
-@import "helpers/positions/center";
-@import "helpers/positions/spacing";
-@import "helpers/positions/type";
-@import "helpers/positions/vertical-align";
-@import "helpers/positions/z-index";
+@import "helpers/position/center";
+@import "helpers/position/spacing";
+@import "helpers/position/type";
+@import "helpers/position/vertical-align";
+@import "helpers/position/z-index";
+
+// List
+@import "helpers/list/list";
+
+// Background
+@import "helpers/background/attachment";
+@import "helpers/background/background";
+@import "helpers/background/color";
+@import "helpers/background/image";
+@import "helpers/background/repeat";
+@import "helpers/background/size";
+

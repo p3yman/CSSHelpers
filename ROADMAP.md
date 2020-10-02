@@ -62,12 +62,12 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [x] Style type
   - [x] style position
 - #### Background
-  - [ ] Background
-  - [ ] Attachment
-  - [ ] Color
-  - [ ] Position
-  - [ ] Repeat
-  - [ ] Size
+  - [x] Background
+  - [x] Attachment
+  - [x] Color
+  - [x] Position
+  - [x] Repeat
+  - [x] Size
 - #### Border
   - [ ] Color
   - [ ] Style

@@ -1,0 +1,14 @@
+/*-----------------------------------------------------------------
+- Background Repeat
+-----------------------------------------------------------------*/
+@include helper('bgr-n') {
+  background-repeat: no-repeat !important;
+}
+
+@include helper('bgr-x') {
+  background-repeat: repeat-x !important;
+}
+
+@include helper('bgr-y') {
+  background-repeat: repeat-y !important;
+}
