@@ -59,8 +59,8 @@ I add list of features that should be included and checked overtime on CSSHelper
   - [ ] White space
   - [ ] Word break
 - #### List
-  - [ ] Style type
-  - [ ] style position
+  - [x] Style type
+  - [x] style position
 - #### Background
   - [ ] Background
   - [ ] Attachment
