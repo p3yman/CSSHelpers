@@ -2,19 +2,18 @@
 - Position centering
 -----------------------------------------------------------------*/
 @include helper('center') {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 }
 @include helper('center-x') {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
-
 @include helper('center-y') {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
 }
