@@ -104,5 +104,130 @@ $names: (
   "v-v": "visibility-visible",
   "v-h": "visibility-hidden",
 
+
+  // Size
+  //---------------------------------------------------------------
+
+  // Height
+  "h-a": "height-auto",
+  "h-100": "height-100",
+  "h-100vh": "height-100vh",
+  "minh-a": "min-height-auto",
+  "minh-n": "min-height-none",
+  "minh-100": "min-height-100",
+  "minh-100vh": "min-height-100vh",
+  "maxh-a": "max-height-auto",
+  "maxh-n": "max-height-none",
+  "maxh-100": "max-height-100",
+  "maxh-100vh": "max-height-100vh",
+
+  // Width
+  "w-a": "width-auto",
+  "w-100": "width-100",
+  "w-100vw": "width-100vw",
+  "minw-a": "min-width-auto",
+  "minw-n": "min-width-none",
+  "minw-100": "min-width-100",
+  "minw-100vw": "min-width-100vw",
+  "maxw-a": "max-width-auto",
+  "maxw-n": "max-width-none",
+  "maxw-100": "max-width-100",
+  "maxw-100vw": "max-width-100vw",
+
+
+  // Position
+  //---------------------------------------------------------------
+
+  // Center
+  "center": "center",
+  "center-x": "center-x",
+  "center-y": "center-y",
+
+  // Spacing
+  "t-a": "top-auto",
+  "t-0": "top-0",
+  "t-100": "top-100",
+  "r-a": "right-auto",
+  "r-0": "right-0",
+  "r-100": "right-100",
+  "b-a": "bottom-auto",
+  "b-0": "bottom-0",
+  "b-100": "bottom-100",
+  "l-a": "left-auto",
+  "l-0": "left-0",
+  "l-100": "left-100",
+
+  // Type
+  "pos-r": "position-relative",
+  "pos-a": "position-absolute",
+  "pos-s": "position-static",
+  "pos-f": "position-fixed",
+  
+  // Vertical Align
+  "va-t": "vertical-align-top",
+  "va-sup": "vertical-align-super",
+  "va-tt": "vertical-align-text-top",
+  "va-m": "vertical-align-middle",
+  "va-bl": "vertical-align-baseline",
+  "va-tb": "vertical-align-text-bottom",
+  "va-sub": "vertical-align-sub",
+
+  // Z-index
+  "z-a": "z-index-auto",
+  "z-0": "z-index-0",
+  "z-100": "z-index-100",
+  "z-1000": "z-index-1000",
+  "z-2000": "z-index-2000",
+  "z-3000": "z-index-3000",
+  "z-4000": "z-index-4000",
+  "z-5000": "z-index-5000",
+  "z-6000": "z-index-6000",
+  "z-7000": "z-index-7000",
+  "z-8000": "z-index-8000",
+  "z-9000": "z-index-9000",
+  "z-10000": "z-index-10000",
+
+
+  // List
+  //---------------------------------------------------------------
+  "lis-n": "list-style-none",
+  "lisp-i": "list-style-position-inside",
+  "lisp-o": "list-style-position-outside",
+  "list-n": "list-style-type-none",
+  "list-d": "list-style-type-disc",
+  "list-c": "list-style-type-circle",
+  "list-s": "list-style-type-square",
+  "list-dc": "list-style-type-decimal",
+
+
+  // Background
+  //---------------------------------------------------------------
+
+  // Attachment
+  "bga-s": "background-attachment-scroll",
+  "bga-f": "background-attachment-fixed",
+  "bga-l": "background-attachment-local",
+  "bga-ls": "background-attachment-local-scroll",
+  "bga-sl": "background-attachment-scoll-local",
+
+  // Background
+  "bg-n": "background-none",
+
+  // Background Color
+  "bgc-t": "background-color-transparent",
+
+  // Background Image
+  "bgi-n": "background-image-none",
+
+  // Background Repeat
+  "bgr-n": "background-repeat-none",
+  "bgr-x": "background-repeat-x",
+  "bgr-y": "background-repeat-y",
+
+  // Background Size
+  "bgs-a": "background-size-auto",
+  "bgs-cov": "background-size-cover",
+  "bgs-con": "background-size-contain",
+
 );
 
