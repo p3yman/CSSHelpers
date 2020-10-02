@@ -1,0 +1,14 @@
+/*-----------------------------------------------------------------
+- Background Size
+-----------------------------------------------------------------*/
+@include helper('bgs-a') {
+  background-size: auto !important;
+}
+
+@include helper('bgs-cov') {
+  background-size: cover !important;
+}
+
+@include helper('bgs-con') {
+  background-size: contain !important;
+}

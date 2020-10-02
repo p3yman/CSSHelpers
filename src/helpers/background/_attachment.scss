@@ -1,0 +1,18 @@
+/*-----------------------------------------------------------------
+- Background Attachment
+-----------------------------------------------------------------*/
+.bga-s {
+  background-attachment: scroll;
+}
+.bga-f {
+  background-attachment: fixed;
+}
+.bga-l {
+  background-attachment: local;
+}
+.bga-ls {
+  background-attachment: local, scroll;
+}
+.bga-sl {
+  background-attachment: scroll, local;
+}
