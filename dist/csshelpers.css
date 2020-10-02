@@ -215,3 +215,301 @@
 
 .v-h {
   visibility: hidden !important; }
+
+/*-----------------------------------------------------------------
+- Height
+-----------------------------------------------------------------*/
+.h-a {
+  height: auto !important; }
+
+.h-100 {
+  height: 100% !important; }
+
+.h-100vh {
+  height: 100vh !important; }
+
+.minh-a {
+  min-height: auto !important; }
+
+.minh-n {
+  min-height: none !important; }
+
+.minh-100 {
+  min-height: 100% !important; }
+
+.minh-100vh {
+  min-height: 100vh !important; }
+
+.maxh-a {
+  max-height: auto !important; }
+
+.maxh-n {
+  max-height: none !important; }
+
+.maxh-100 {
+  max-height: 100% !important; }
+
+.maxh-100vh {
+  max-height: 100vh !important; }
+
+/*-----------------------------------------------------------------
+- Width
+-----------------------------------------------------------------*/
+.w-a {
+  width: auto !important; }
+
+.w-100 {
+  width: 100% !important; }
+
+.w-100vw {
+  width: 100vw !important; }
+
+.minw-a {
+  min-width: auto !important; }
+
+.minw-n {
+  min-width: none !important; }
+
+.minw-100 {
+  min-width: 100% !important; }
+
+.minw-100vw {
+  min-width: 100vw !important; }
+
+.maxw-a {
+  max-width: auto !important; }
+
+.maxw-n {
+  max-width: none !important; }
+
+.maxw-100 {
+  max-width: 100% !important; }
+
+.maxw-100vw {
+  max-width: 100vw !important; }
+
+/*-----------------------------------------------------------------
+- Position centering
+-----------------------------------------------------------------*/
+.center {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important; }
+
+.center-x {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important; }
+
+.center-y {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important; }
+
+/*-----------------------------------------------------------------
+- Position spacing
+-----------------------------------------------------------------*/
+.t-a {
+  top: auto !important; }
+
+.t-0 {
+  top: 0 !important; }
+
+.t-100 {
+  top: 100% !important; }
+
+.r-a {
+  right: auto !important; }
+
+.r-0 {
+  right: 0 !important; }
+
+.r-100 {
+  right: 100% !important; }
+
+.b-a {
+  bottom: auto !important; }
+
+.b-0 {
+  bottom: 0 !important; }
+
+.b-100 {
+  bottom: 100% !important; }
+
+.l-a {
+  left: auto !important; }
+
+.l-0 {
+  left: 0 !important; }
+
+.l-100 {
+  left: 100% !important; }
+
+/*-----------------------------------------------------------------
+- Position type
+-----------------------------------------------------------------*/
+.pos-r {
+  position: relative !important; }
+
+.pos-a {
+  position: absolute !important; }
+
+.pos-s {
+  position: static !important; }
+
+.pos-f {
+  position: fixed !important; }
+
+/*-----------------------------------------------------------------
+- Vertical Align
+-----------------------------------------------------------------*/
+.va-t {
+  vertical-align: top !important; }
+
+.va-sup {
+  vertical-align: super !important; }
+
+.va-tt {
+  vertical-align: text-top !important; }
+
+.va-m {
+  vertical-align: middle !important; }
+
+.va-bl {
+  vertical-align: baseline !important; }
+
+.va-tb {
+  vertical-align: text-bottom !important; }
+
+.va-sub {
+  vertical-align: sub !important; }
+
+/*-----------------------------------------------------------------
+- Z-index
+-----------------------------------------------------------------*/
+.z-a {
+  z-index: auto !important; }
+
+.z-0 {
+  z-index: 0 !important; }
+
+.z-100 {
+  z-index: 100 !important; }
+
+.z-1000 {
+  z-index: 1000 !important; }
+
+.z-2000 {
+  z-index: 2000 !important; }
+
+.z-3000 {
+  z-index: 3000 !important; }
+
+.z-4000 {
+  z-index: 4000 !important; }
+
+.z-5000 {
+  z-index: 5000 !important; }
+
+.z-6000 {
+  z-index: 6000 !important; }
+
+.z-7000 {
+  z-index: 7000 !important; }
+
+.z-8000 {
+  z-index: 8000 !important; }
+
+.z-9000 {
+  z-index: 9000 !important; }
+
+.z-10000 {
+  z-index: 10000 !important; }
+
+/*-----------------------------------------------------------------
+- List
+-----------------------------------------------------------------*/
+.lis-n {
+  list-style: none !important; }
+
+.lisp-i {
+  list-style-position: inside !important; }
+
+.lisp-o {
+  list-style-position: outside !important; }
+
+.list-n {
+  list-style-type: none !important; }
+
+.list-d {
+  list-style-type: disc !important; }
+
+.list-c {
+  list-style-type: circle !important; }
+
+.list-s {
+  list-style-type: square !important; }
+
+.list-dc {
+  list-style-type: decimal !important; }
+
+/*-----------------------------------------------------------------
+- Background Attachment
+-----------------------------------------------------------------*/
+.bga-s {
+  background-attachment: scroll !important; }
+
+.bga-f {
+  background-attachment: fixed !important; }
+
+.bga-l {
+  background-attachment: local !important; }
+
+.bga-ls {
+  background-attachment: local, scroll !important; }
+
+.bga-sl {
+  background-attachment: scroll, local !important; }
+
+/*-----------------------------------------------------------------
+- Background
+-----------------------------------------------------------------*/
+.bg-n {
+  background: none !important; }
+
+/*-----------------------------------------------------------------
+- Background Color
+-----------------------------------------------------------------*/
+.bgc-t {
+  background-color: transparent !important; }
+
+/*-----------------------------------------------------------------
+- Background Image
+-----------------------------------------------------------------*/
+.bgi-n {
+  background-image: none !important; }
+
+/*-----------------------------------------------------------------
+- Background Repeat
+-----------------------------------------------------------------*/
+.bgr-n {
+  background-repeat: no-repeat !important; }
+
+.bgr-x {
+  background-repeat: repeat-x !important; }
+
+.bgr-y {
+  background-repeat: repeat-y !important; }
+
+/*-----------------------------------------------------------------
+- Background Size
+-----------------------------------------------------------------*/
+.bgs-a {
+  background-size: auto !important; }
+
+.bgs-cov {
+  background-size: cover !important; }
+
+.bgs-con {
+  background-size: contain !important; }
