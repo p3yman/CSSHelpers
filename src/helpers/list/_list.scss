@@ -1,0 +1,37 @@
+/*-----------------------------------------------------------------
+- List
+-----------------------------------------------------------------*/
+// List Style
+@include helper('lis-n') {
+  list-style: none !important;
+}
+
+// List Style Position
+@include helper('lisp-i') {
+  list-style-position: inside !important;
+}
+
+@include helper('lisp-o') {
+  list-style-position: outside !important;
+}
+
+// List Style Type
+@include helper('list-n') {
+  list-style-type: none !important;
+}
+
+@include helper('list-d') {
+  list-style-type: disc !important;
+}
+
+@include helper('list-c') {
+  list-style-type: circle !important;
+}
+
+@include helper('list-s') {
+  list-style-type: square !important;
+}
+
+@include helper('list-dc') {
+  list-style-type: decimal !important;
+}
