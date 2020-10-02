@@ -1,40 +1,42 @@
 /*-----------------------------------------------------------------
 - Width
 -----------------------------------------------------------------*/
-.w-a {
+@include helper('w-a') {
   width: auto !important;
 }
 
-.w-100 {
+@include helper('w-100') {
   width: 100% !important;
 }
 
-.w-100vw {
+@include helper('w-100vw') {
   width: 100vw !important;
 }
 
-.minw-a {
+// Min width
+@include helper('minw-a') {
   min-width: auto !important;
 }
-.minw-n {
+@include helper('minw-n') {
   min-width: none !important;
 }
-.minw-100 {
+@include helper('minw-100') {
   min-width: 100% !important;
 }
-.minw-100vw {
+@include helper('minw-100vw') {
   min-width: 100vw !important;
 }
 
-.maxw-a {
+// Max width
+@include helper('maxw-a') {
   max-width: auto !important;
 }
-.maxw-n {
+@include helper('maxw-n') {
   max-width: none !important;
 }
-.maxw-100 {
+@include helper('maxw-100') {
   max-width: 100% !important;
 }
-.maxw-100vw {
+@include helper('maxw-100vw') {
   max-width: 100vw !important;
 }
